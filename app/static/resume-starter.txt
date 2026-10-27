@@ -1,0 +1,31 @@
+YOUR NAME
+City / country | Email | Professional profile or portfolio link
+
+SUMMARY
+[Your current role or professional direction]
+[Two or three strengths supported by your actual work]
+[The kind of role you want to explore]
+
+EXPERIENCE
+[Role] | [Company] | [Dates]
+- [What you did, who it helped, and a result you can verify]
+- [Your contribution, tools used, and scope]
+
+PROJECTS
+[Project name] | [Link if available]
+- [Problem, your contribution, tools, and outcome]
+
+SKILLS
+[Only skills you can discuss and demonstrate; indicate learning projects honestly]
+
+EDUCATION / TRAINING
+[Qualification or course] | [Institution] | [Date]
+
+LANGUAGES / OTHER RELEVANT INFORMATION
+[Language and an honest proficiency level]
+
+HOW TO USE
+Replace every bracket with your own facts. Remove sections that are irrelevant.
+Do not invent metrics or experience. Tailor the ordering to each role.
+Paste into your document editor, use a readable single-column layout, and export
+as a text-based PDF for this app. Review the PDF before applying.

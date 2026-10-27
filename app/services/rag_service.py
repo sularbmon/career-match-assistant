@@ -9,7 +9,9 @@ def generate_recommendations(db: Session, missing_skills: list[str],
     for skill in missing_skills:
         query = (f"Learning resources & career guidance for {skill}")
         query_embedding = create_query_embedding(query)
-        relevant_chunks = search_similar_chunks(db=db, query_embedding=query_embedding, top_k = top_k)
+        relevant_chunks = search_similar_chunks(
+            db=db, query_embedding=query_embedding, skill=skill, top_k=top_k
+        )
         retrieved_knowledge = []
         for chunk in relevant_chunks:
             retrieved_knowledge.append({
@@ -21,8 +23,11 @@ def generate_recommendations(db: Session, missing_skills: list[str],
             })
         recommendations.append({
             "missing_skills": skill,
-            "recommendations": (f"Focus on improving your {skill} skills."
-                                f"Use the retrieved learning materials below as your study roadmap"),
+            "recommendations": (
+                f"Use the retrieved materials to practice {skill}."
+                if retrieved_knowledge else
+                f"No curated material is available for {skill} yet."
+            ),
             "retrieved_knowledge": retrieved_knowledge
         })
 

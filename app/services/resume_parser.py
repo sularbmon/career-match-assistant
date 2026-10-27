@@ -1,9 +1,9 @@
-import fitz
+import pymupdf as fitz
 from pathlib import Path
 
 def extract_text_from_pdf(pdf_path) -> str:
     extracted_text = []
-    document = fitz.open(pdf_path)
+    document = fitz.open(stream=Path(pdf_path).read_bytes(), filetype="pdf")
     try:
         for page in document:
             page_text = page.get_text()

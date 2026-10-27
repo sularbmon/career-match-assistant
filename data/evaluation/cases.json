@@ -1,0 +1,455 @@
+{
+  "description": "30 author-designed synthetic development cases, not an independent benchmark. Expected skills use the project taxonomy. Expected ordering: strong > partial > unrelated within each role.",
+  "cases": [
+    {
+      "id": "backend-strong",
+      "group": "backend",
+      "relevance": "strong",
+      "resume": "Delivered production projects using python, fastapi, postgresql.",
+      "job": "Python FastAPI PostgreSQL backend developer",
+      "expected_resume_skills": [
+        "python",
+        "fastapi",
+        "postgresql"
+      ],
+      "expected_job_skills": [
+        "python",
+        "fastapi",
+        "postgresql"
+      ]
+    },
+    {
+      "id": "backend-partial",
+      "group": "backend",
+      "relevance": "partial",
+      "resume": "Delivered projects using python. Background in customer support.",
+      "job": "Python FastAPI PostgreSQL backend developer",
+      "expected_resume_skills": [
+        "python"
+      ],
+      "expected_job_skills": [
+        "python",
+        "fastapi",
+        "postgresql"
+      ]
+    },
+    {
+      "id": "backend-unrelated",
+      "group": "backend",
+      "relevance": "unrelated",
+      "resume": "Managed retail inventory, customer service and store operations.",
+      "job": "Python FastAPI PostgreSQL backend developer",
+      "expected_resume_skills": [],
+      "expected_job_skills": [
+        "python",
+        "fastapi",
+        "postgresql"
+      ]
+    },
+    {
+      "id": "data-strong",
+      "group": "data",
+      "relevance": "strong",
+      "resume": "Delivered production projects using pandas, numpy, sql.",
+      "job": "Pandas NumPy SQL data analyst",
+      "expected_resume_skills": [
+        "pandas",
+        "numpy",
+        "sql"
+      ],
+      "expected_job_skills": [
+        "pandas",
+        "numpy",
+        "sql"
+      ]
+    },
+    {
+      "id": "data-partial",
+      "group": "data",
+      "relevance": "partial",
+      "resume": "Delivered projects using pandas. Background in customer support.",
+      "job": "Pandas NumPy SQL data analyst",
+      "expected_resume_skills": [
+        "pandas"
+      ],
+      "expected_job_skills": [
+        "pandas",
+        "numpy",
+        "sql"
+      ]
+    },
+    {
+      "id": "data-unrelated",
+      "group": "data",
+      "relevance": "unrelated",
+      "resume": "Managed retail inventory, customer service and store operations.",
+      "job": "Pandas NumPy SQL data analyst",
+      "expected_resume_skills": [],
+      "expected_job_skills": [
+        "pandas",
+        "numpy",
+        "sql"
+      ]
+    },
+    {
+      "id": "cloud-strong",
+      "group": "cloud",
+      "relevance": "strong",
+      "resume": "Delivered production projects using aws, docker, kubernetes.",
+      "job": "AWS Docker Kubernetes cloud engineer",
+      "expected_resume_skills": [
+        "aws",
+        "docker",
+        "kubernetes"
+      ],
+      "expected_job_skills": [
+        "aws",
+        "docker",
+        "kubernetes"
+      ]
+    },
+    {
+      "id": "cloud-partial",
+      "group": "cloud",
+      "relevance": "partial",
+      "resume": "Delivered projects using aws. Background in customer support.",
+      "job": "AWS Docker Kubernetes cloud engineer",
+      "expected_resume_skills": [
+        "aws"
+      ],
+      "expected_job_skills": [
+        "aws",
+        "docker",
+        "kubernetes"
+      ]
+    },
+    {
+      "id": "cloud-unrelated",
+      "group": "cloud",
+      "relevance": "unrelated",
+      "resume": "Managed retail inventory, customer service and store operations.",
+      "job": "AWS Docker Kubernetes cloud engineer",
+      "expected_resume_skills": [],
+      "expected_job_skills": [
+        "aws",
+        "docker",
+        "kubernetes"
+      ]
+    },
+    {
+      "id": "nlp-strong",
+      "group": "nlp",
+      "relevance": "strong",
+      "resume": "Delivered production projects using natural language processing, pytorch, rag.",
+      "job": "NLP PyTorch RAG engineer",
+      "expected_resume_skills": [
+        "natural language processing",
+        "pytorch",
+        "rag"
+      ],
+      "expected_job_skills": [
+        "natural language processing",
+        "pytorch",
+        "rag"
+      ]
+    },
+    {
+      "id": "nlp-partial",
+      "group": "nlp",
+      "relevance": "partial",
+      "resume": "Delivered projects using natural language processing. Background in customer support.",
+      "job": "NLP PyTorch RAG engineer",
+      "expected_resume_skills": [
+        "natural language processing"
+      ],
+      "expected_job_skills": [
+        "natural language processing",
+        "pytorch",
+        "rag"
+      ]
+    },
+    {
+      "id": "nlp-unrelated",
+      "group": "nlp",
+      "relevance": "unrelated",
+      "resume": "Managed retail inventory, customer service and store operations.",
+      "job": "NLP PyTorch RAG engineer",
+      "expected_resume_skills": [],
+      "expected_job_skills": [
+        "natural language processing",
+        "pytorch",
+        "rag"
+      ]
+    },
+    {
+      "id": "web-strong",
+      "group": "web",
+      "relevance": "strong",
+      "resume": "Delivered production projects using django, redis, mysql.",
+      "job": "Django Redis MySQL web developer",
+      "expected_resume_skills": [
+        "django",
+        "redis",
+        "mysql"
+      ],
+      "expected_job_skills": [
+        "django",
+        "redis",
+        "mysql"
+      ]
+    },
+    {
+      "id": "web-partial",
+      "group": "web",
+      "relevance": "partial",
+      "resume": "Delivered projects using django. Background in customer support.",
+      "job": "Django Redis MySQL web developer",
+      "expected_resume_skills": [
+        "django"
+      ],
+      "expected_job_skills": [
+        "django",
+        "redis",
+        "mysql"
+      ]
+    },
+    {
+      "id": "web-unrelated",
+      "group": "web",
+      "relevance": "unrelated",
+      "resume": "Managed retail inventory, customer service and store operations.",
+      "job": "Django Redis MySQL web developer",
+      "expected_resume_skills": [],
+      "expected_job_skills": [
+        "django",
+        "redis",
+        "mysql"
+      ]
+    },
+    {
+      "id": "ml-strong",
+      "group": "ml",
+      "relevance": "strong",
+      "resume": "Delivered production projects using machine learning, scikit-learn, python.",
+      "job": "Machine-learning scikit-learn Python engineer",
+      "expected_resume_skills": [
+        "machine learning",
+        "scikit-learn",
+        "python"
+      ],
+      "expected_job_skills": [
+        "machine learning",
+        "scikit-learn",
+        "python"
+      ]
+    },
+    {
+      "id": "ml-partial",
+      "group": "ml",
+      "relevance": "partial",
+      "resume": "Delivered projects using machine learning. Background in customer support.",
+      "job": "Machine-learning scikit-learn Python engineer",
+      "expected_resume_skills": [
+        "machine learning"
+      ],
+      "expected_job_skills": [
+        "machine learning",
+        "scikit-learn",
+        "python"
+      ]
+    },
+    {
+      "id": "ml-unrelated",
+      "group": "ml",
+      "relevance": "unrelated",
+      "resume": "Managed retail inventory, customer service and store operations.",
+      "job": "Machine-learning scikit-learn Python engineer",
+      "expected_resume_skills": [],
+      "expected_job_skills": [
+        "machine learning",
+        "scikit-learn",
+        "python"
+      ]
+    },
+    {
+      "id": "platform-strong",
+      "group": "platform",
+      "relevance": "strong",
+      "resume": "Delivered production projects using linux, git, docker.",
+      "job": "Linux Git Docker platform engineer",
+      "expected_resume_skills": [
+        "linux",
+        "git",
+        "docker"
+      ],
+      "expected_job_skills": [
+        "linux",
+        "git",
+        "docker"
+      ]
+    },
+    {
+      "id": "platform-partial",
+      "group": "platform",
+      "relevance": "partial",
+      "resume": "Delivered projects using linux. Background in customer support.",
+      "job": "Linux Git Docker platform engineer",
+      "expected_resume_skills": [
+        "linux"
+      ],
+      "expected_job_skills": [
+        "linux",
+        "git",
+        "docker"
+      ]
+    },
+    {
+      "id": "platform-unrelated",
+      "group": "platform",
+      "relevance": "unrelated",
+      "resume": "Managed retail inventory, customer service and store operations.",
+      "job": "Linux Git Docker platform engineer",
+      "expected_resume_skills": [],
+      "expected_job_skills": [
+        "linux",
+        "git",
+        "docker"
+      ]
+    },
+    {
+      "id": "api-strong",
+      "group": "api",
+      "relevance": "strong",
+      "resume": "Delivered production projects using rest api, jwt, flask.",
+      "job": "REST API JWT Flask developer",
+      "expected_resume_skills": [
+        "rest api",
+        "jwt",
+        "flask"
+      ],
+      "expected_job_skills": [
+        "rest api",
+        "jwt",
+        "flask"
+      ]
+    },
+    {
+      "id": "api-partial",
+      "group": "api",
+      "relevance": "partial",
+      "resume": "Delivered projects using rest api. Background in customer support.",
+      "job": "REST API JWT Flask developer",
+      "expected_resume_skills": [
+        "rest api"
+      ],
+      "expected_job_skills": [
+        "rest api",
+        "jwt",
+        "flask"
+      ]
+    },
+    {
+      "id": "api-unrelated",
+      "group": "api",
+      "relevance": "unrelated",
+      "resume": "Managed retail inventory, customer service and store operations.",
+      "job": "REST API JWT Flask developer",
+      "expected_resume_skills": [],
+      "expected_job_skills": [
+        "rest api",
+        "jwt",
+        "flask"
+      ]
+    },
+    {
+      "id": "llm-strong",
+      "group": "llm",
+      "relevance": "strong",
+      "resume": "Delivered production projects using llm, langchain, rag.",
+      "job": "Large language models LangChain retrieval-augmented generation engineer",
+      "expected_resume_skills": [
+        "llm",
+        "langchain",
+        "rag"
+      ],
+      "expected_job_skills": [
+        "llm",
+        "langchain",
+        "rag"
+      ]
+    },
+    {
+      "id": "llm-partial",
+      "group": "llm",
+      "relevance": "partial",
+      "resume": "Delivered projects using llm. Background in customer support.",
+      "job": "Large language models LangChain retrieval-augmented generation engineer",
+      "expected_resume_skills": [
+        "llm"
+      ],
+      "expected_job_skills": [
+        "llm",
+        "langchain",
+        "rag"
+      ]
+    },
+    {
+      "id": "llm-unrelated",
+      "group": "llm",
+      "relevance": "unrelated",
+      "resume": "Managed retail inventory, customer service and store operations.",
+      "job": "Large language models LangChain retrieval-augmented generation engineer",
+      "expected_resume_skills": [],
+      "expected_job_skills": [
+        "llm",
+        "langchain",
+        "rag"
+      ]
+    },
+    {
+      "id": "negation-strong",
+      "group": "negation",
+      "relevance": "strong",
+      "resume": "Delivered production projects using python, fastapi, docker.",
+      "job": "Python FastAPI Docker developer",
+      "expected_resume_skills": [
+        "python",
+        "fastapi",
+        "docker"
+      ],
+      "expected_job_skills": [
+        "python",
+        "fastapi",
+        "docker"
+      ]
+    },
+    {
+      "id": "negation-partial",
+      "group": "negation",
+      "relevance": "partial",
+      "resume": "Delivered Python projects. No experience with FastAPI or Docker.",
+      "job": "Python FastAPI Docker developer",
+      "expected_resume_skills": [
+        "python"
+      ],
+      "expected_job_skills": [
+        "python",
+        "fastapi",
+        "docker"
+      ]
+    },
+    {
+      "id": "negation-unrelated",
+      "group": "negation",
+      "relevance": "unrelated",
+      "resume": "Managed retail inventory, customer service and store operations.",
+      "job": "Python FastAPI Docker developer",
+      "expected_resume_skills": [],
+      "expected_job_skills": [
+        "python",
+        "fastapi",
+        "docker"
+      ]
+    }
+  ]
+}

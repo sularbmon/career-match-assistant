@@ -1,37 +1,222 @@
 {
   "skills": {
-    "python": ["Python"],
-    "fastapi": ["fastapi", "fast api"],
-    "django" : ["django"],
-    "flask" : ["flask"],
-    "machine learning": ["machine learning", "ml"],
-    "deep learning": ["deep learning", "dl"],
-    "artificial intelligence" : ["artificial intelligence"],
-    "natural language processing" : ["natural language processing", "nlp"],
-    "scikit-learn" : ["scikit-learn", "scikit learn", "sklearn"],
-    "pytorch": ["pytorch", "py torch"],
-    "tensorflow" : ["tensorflow", "tensor flow"],
-    "pandas" : ["pandas"],
-    "numpy" : ["numpy"],
-    "matplotlib" : ["matplotlib"],
-    "postgresql" : ["postgresql", "postgres"],
-    "mysql" : ["mysql"],
-    "mongodb" : ["mongodb"],
-    "redis" : ["redis"],
-    "docker" : ["docker"],
-    "kubernetes" : ["kubernetes", "k8s"],
-    "aws" : ["aws", "amazon web services"],
-    "azure" : ["azure"],
-    "gcp" : ["gcp", "google cloud platform"],
-    "git" : ["git"],
-    "github" : ["github"],
-    "linux" : ["linux"],
-    "sql" : ["sql"],
-    "rest api" : ["rest api", "restful api"],
-    "jwt" : ["jwt"],
-    "rag" : ["rag", "retrieval augmented generation"],
-    "langchain" : ["langchain"],
-    "llm" : ["llm", "large language model", "large language models"],
-    "openai" : ["openai"]
+    "python": [
+      "Python"
+    ],
+    "fastapi": [
+      "fastapi",
+      "fast api"
+    ],
+    "django": [
+      "django"
+    ],
+    "flask": [
+      "flask"
+    ],
+    "machine learning": [
+      "machine learning",
+      "ml"
+    ],
+    "deep learning": [
+      "deep learning",
+      "dl"
+    ],
+    "artificial intelligence": [
+      "artificial intelligence"
+    ],
+    "natural language processing": [
+      "natural language processing",
+      "nlp"
+    ],
+    "scikit-learn": [
+      "scikit-learn",
+      "scikit learn",
+      "sklearn"
+    ],
+    "pytorch": [
+      "pytorch",
+      "py torch"
+    ],
+    "tensorflow": [
+      "tensorflow",
+      "tensor flow"
+    ],
+    "pandas": [
+      "pandas"
+    ],
+    "numpy": [
+      "numpy"
+    ],
+    "matplotlib": [
+      "matplotlib"
+    ],
+    "postgresql": [
+      "postgresql",
+      "postgres"
+    ],
+    "mysql": [
+      "mysql"
+    ],
+    "mongodb": [
+      "mongodb"
+    ],
+    "redis": [
+      "redis"
+    ],
+    "docker": [
+      "docker"
+    ],
+    "kubernetes": [
+      "kubernetes",
+      "k8s"
+    ],
+    "aws": [
+      "aws",
+      "amazon web services"
+    ],
+    "azure": [
+      "azure"
+    ],
+    "gcp": [
+      "gcp",
+      "google cloud platform"
+    ],
+    "git": [
+      "git"
+    ],
+    "github": [
+      "github"
+    ],
+    "linux": [
+      "linux"
+    ],
+    "sql": [
+      "sql"
+    ],
+    "rest api": [
+      "rest api",
+      "restful api"
+    ],
+    "jwt": [
+      "jwt"
+    ],
+    "rag": [
+      "rag",
+      "retrieval augmented generation"
+    ],
+    "langchain": [
+      "langchain"
+    ],
+    "llm": [
+      "llm",
+      "large language model",
+      "large language models"
+    ],
+    "openai": [
+      "openai"
+    ],
+    "computer vision": [
+      "computer vision"
+    ],
+    "opencv": [
+      "opencv",
+      "open cv"
+    ],
+    "yolo": [
+      "yolo",
+      "yolov5",
+      "yolov8",
+      "yolov11"
+    ],
+    "object detection": [
+      "object detection"
+    ],
+    "multi-object tracking": [
+      "multi-object tracking",
+      "multi object tracking",
+      "object tracking"
+    ],
+    "instance segmentation": [
+      "instance segmentation"
+    ],
+    "image classification": [
+      "image classification"
+    ],
+    "ocr": [
+      "ocr",
+      "optical character recognition"
+    ],
+    "mask r-cnn": [
+      "mask r-cnn",
+      "mask r cnn"
+    ],
+    "segment anything": [
+      "segment anything",
+      "sam segmentation"
+    ],
+    "nvidia jetson": [
+      "nvidia jetson",
+      "jetson orin",
+      "jetson nano"
+    ],
+    "cuda": [
+      "cuda"
+    ],
+    "tensorrt": [
+      "tensorrt",
+      "tensor rt"
+    ],
+    "rtsp": [
+      "rtsp"
+    ],
+    "vision-language models": [
+      "vision-language models",
+      "vision language models",
+      "vision-language model",
+      "vision language model",
+      "vlm",
+      "vlms"
+    ],
+    "multimodal learning": [
+      "multimodal learning"
+    ],
+    "anomaly detection": [
+      "anomaly detection"
+    ],
+    "cvat": [
+      "cvat"
+    ],
+    "weights & biases": [
+      "weights & biases",
+      "weights and biases",
+      "weights biases",
+      "wandb"
+    ],
+    "distributed training": [
+      "distributed training",
+      "distributed data parallel",
+      "pytorch ddp"
+    ],
+    "image processing": [
+      "image processing"
+    ],
+    "edge ai": [
+      "edge ai"
+    ],
+    "human-robot interaction": [
+      "human-robot interaction",
+      "human robot interaction"
+    ],
+    "svm": [
+      "svm",
+      "support vector machine"
+    ],
+    "cnn": [
+      "cnn",
+      "convolutional neural network"
+    ],
+    "vgg16": [
+      "vgg16"
+    ]
   }
 }

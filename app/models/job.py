@@ -10,5 +10,5 @@ class Job(Base):
     job_description: Mapped[str] = mapped_column(Text, nullable=False)
     cleaned_text: Mapped[str | None] = mapped_column(Text, nullable=True)
     extracted_skills : Mapped[list | None] = mapped_column(JSONB, nullable=True)
-    created_at : Mapped[datetime] = mapped_column(DateTime, default = datetime.utcnow())
+    created_at : Mapped[datetime] = mapped_column(DateTime, default = datetime.utcnow)
 

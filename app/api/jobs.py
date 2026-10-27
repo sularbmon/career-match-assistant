@@ -1,5 +1,4 @@
 from fastapi import APIRouter, status, Depends, HTTPException
-from sqlalchemy import exc
 from app.schemas.job import JobAnalyzeRequest
 from app.services.text_cleaner import clean_text
 from app.services.skill_extractor import extract_skills
@@ -40,7 +39,7 @@ async def analyze_job(data:JobAnalyzeRequest, db: Session = Depends(get_db)):
     except Exception as e:
         db.rollback()
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-                            detail="Failed to save job to database") from exc
+                            detail="Failed to save job to database") from e
 
     #6. Return Response
     return {

@@ -1,0 +1,445 @@
+{
+  "case_count": 30,
+  "extraction_precision": 0.9848,
+  "extraction_recall": 1.0,
+  "false_positives": 2,
+  "false_negatives": 0,
+  "ranking_groups_passed": 10,
+  "ranking_groups": 10,
+  "rankings": {
+    "api": true,
+    "backend": true,
+    "cloud": true,
+    "data": true,
+    "llm": true,
+    "ml": true,
+    "negation": true,
+    "nlp": true,
+    "platform": true,
+    "web": true
+  },
+  "cases": [
+    {
+      "id": "backend-strong",
+      "group": "backend",
+      "relevance": "strong",
+      "score": 80.34,
+      "resume_skills": [
+        "python",
+        "fastapi",
+        "postgresql"
+      ],
+      "job_skills": [
+        "python",
+        "fastapi",
+        "postgresql"
+      ]
+    },
+    {
+      "id": "backend-partial",
+      "group": "backend",
+      "relevance": "partial",
+      "score": 25.94,
+      "resume_skills": [
+        "python"
+      ],
+      "job_skills": [
+        "python",
+        "fastapi",
+        "postgresql"
+      ]
+    },
+    {
+      "id": "backend-unrelated",
+      "group": "backend",
+      "relevance": "unrelated",
+      "score": 0.0,
+      "resume_skills": [],
+      "job_skills": [
+        "python",
+        "fastapi",
+        "postgresql"
+      ]
+    },
+    {
+      "id": "data-strong",
+      "group": "data",
+      "relevance": "strong",
+      "score": 80.34,
+      "resume_skills": [
+        "pandas",
+        "numpy",
+        "sql"
+      ],
+      "job_skills": [
+        "pandas",
+        "numpy",
+        "sql"
+      ]
+    },
+    {
+      "id": "data-partial",
+      "group": "data",
+      "relevance": "partial",
+      "score": 25.94,
+      "resume_skills": [
+        "pandas"
+      ],
+      "job_skills": [
+        "pandas",
+        "numpy",
+        "sql"
+      ]
+    },
+    {
+      "id": "data-unrelated",
+      "group": "data",
+      "relevance": "unrelated",
+      "score": 0.0,
+      "resume_skills": [],
+      "job_skills": [
+        "pandas",
+        "numpy",
+        "sql"
+      ]
+    },
+    {
+      "id": "cloud-strong",
+      "group": "cloud",
+      "relevance": "strong",
+      "score": 80.34,
+      "resume_skills": [
+        "docker",
+        "kubernetes",
+        "aws"
+      ],
+      "job_skills": [
+        "docker",
+        "kubernetes",
+        "aws"
+      ]
+    },
+    {
+      "id": "cloud-partial",
+      "group": "cloud",
+      "relevance": "partial",
+      "score": 25.94,
+      "resume_skills": [
+        "aws"
+      ],
+      "job_skills": [
+        "docker",
+        "kubernetes",
+        "aws"
+      ]
+    },
+    {
+      "id": "cloud-unrelated",
+      "group": "cloud",
+      "relevance": "unrelated",
+      "score": 0.0,
+      "resume_skills": [],
+      "job_skills": [
+        "docker",
+        "kubernetes",
+        "aws"
+      ]
+    },
+    {
+      "id": "nlp-strong",
+      "group": "nlp",
+      "relevance": "strong",
+      "score": 76.18,
+      "resume_skills": [
+        "natural language processing",
+        "pytorch",
+        "rag"
+      ],
+      "job_skills": [
+        "natural language processing",
+        "pytorch",
+        "rag"
+      ]
+    },
+    {
+      "id": "nlp-partial",
+      "group": "nlp",
+      "relevance": "partial",
+      "score": 23.33,
+      "resume_skills": [
+        "natural language processing"
+      ],
+      "job_skills": [
+        "natural language processing",
+        "pytorch",
+        "rag"
+      ]
+    },
+    {
+      "id": "nlp-unrelated",
+      "group": "nlp",
+      "relevance": "unrelated",
+      "score": 0.0,
+      "resume_skills": [],
+      "job_skills": [
+        "natural language processing",
+        "pytorch",
+        "rag"
+      ]
+    },
+    {
+      "id": "web-strong",
+      "group": "web",
+      "relevance": "strong",
+      "score": 80.34,
+      "resume_skills": [
+        "django",
+        "mysql",
+        "redis"
+      ],
+      "job_skills": [
+        "django",
+        "mysql",
+        "redis"
+      ]
+    },
+    {
+      "id": "web-partial",
+      "group": "web",
+      "relevance": "partial",
+      "score": 25.94,
+      "resume_skills": [
+        "django"
+      ],
+      "job_skills": [
+        "django",
+        "mysql",
+        "redis"
+      ]
+    },
+    {
+      "id": "web-unrelated",
+      "group": "web",
+      "relevance": "unrelated",
+      "score": 0.0,
+      "resume_skills": [],
+      "job_skills": [
+        "django",
+        "mysql",
+        "redis"
+      ]
+    },
+    {
+      "id": "ml-strong",
+      "group": "ml",
+      "relevance": "strong",
+      "score": 85.81,
+      "resume_skills": [
+        "python",
+        "machine learning",
+        "scikit-learn"
+      ],
+      "job_skills": [
+        "python",
+        "machine learning",
+        "scikit-learn"
+      ]
+    },
+    {
+      "id": "ml-partial",
+      "group": "ml",
+      "relevance": "partial",
+      "score": 28.12,
+      "resume_skills": [
+        "machine learning"
+      ],
+      "job_skills": [
+        "python",
+        "machine learning",
+        "scikit-learn"
+      ]
+    },
+    {
+      "id": "ml-unrelated",
+      "group": "ml",
+      "relevance": "unrelated",
+      "score": 0.0,
+      "resume_skills": [],
+      "job_skills": [
+        "python",
+        "machine learning",
+        "scikit-learn"
+      ]
+    },
+    {
+      "id": "platform-strong",
+      "group": "platform",
+      "relevance": "strong",
+      "score": 80.34,
+      "resume_skills": [
+        "docker",
+        "git",
+        "linux"
+      ],
+      "job_skills": [
+        "docker",
+        "git",
+        "linux"
+      ]
+    },
+    {
+      "id": "platform-partial",
+      "group": "platform",
+      "relevance": "partial",
+      "score": 25.94,
+      "resume_skills": [
+        "linux"
+      ],
+      "job_skills": [
+        "docker",
+        "git",
+        "linux"
+      ]
+    },
+    {
+      "id": "platform-unrelated",
+      "group": "platform",
+      "relevance": "unrelated",
+      "score": 0.0,
+      "resume_skills": [],
+      "job_skills": [
+        "docker",
+        "git",
+        "linux"
+      ]
+    },
+    {
+      "id": "api-strong",
+      "group": "api",
+      "relevance": "strong",
+      "score": 84.23,
+      "resume_skills": [
+        "flask",
+        "rest api",
+        "jwt"
+      ],
+      "job_skills": [
+        "flask",
+        "rest api",
+        "jwt"
+      ]
+    },
+    {
+      "id": "api-partial",
+      "group": "api",
+      "relevance": "partial",
+      "score": 28.69,
+      "resume_skills": [
+        "rest api"
+      ],
+      "job_skills": [
+        "flask",
+        "rest api",
+        "jwt"
+      ]
+    },
+    {
+      "id": "api-unrelated",
+      "group": "api",
+      "relevance": "unrelated",
+      "score": 0.0,
+      "resume_skills": [],
+      "job_skills": [
+        "flask",
+        "rest api",
+        "jwt"
+      ]
+    },
+    {
+      "id": "llm-strong",
+      "group": "llm",
+      "relevance": "strong",
+      "score": 72.17,
+      "resume_skills": [
+        "rag",
+        "langchain",
+        "llm"
+      ],
+      "job_skills": [
+        "rag",
+        "langchain",
+        "llm"
+      ]
+    },
+    {
+      "id": "llm-partial",
+      "group": "llm",
+      "relevance": "partial",
+      "score": 23.33,
+      "resume_skills": [
+        "llm"
+      ],
+      "job_skills": [
+        "rag",
+        "langchain",
+        "llm"
+      ]
+    },
+    {
+      "id": "llm-unrelated",
+      "group": "llm",
+      "relevance": "unrelated",
+      "score": 0.0,
+      "resume_skills": [],
+      "job_skills": [
+        "rag",
+        "langchain",
+        "llm"
+      ]
+    },
+    {
+      "id": "negation-strong",
+      "group": "negation",
+      "relevance": "strong",
+      "score": 82.22,
+      "resume_skills": [
+        "python",
+        "fastapi",
+        "docker"
+      ],
+      "job_skills": [
+        "python",
+        "fastapi",
+        "docker"
+      ]
+    },
+    {
+      "id": "negation-partial",
+      "group": "negation",
+      "relevance": "partial",
+      "score": 80.47,
+      "resume_skills": [
+        "python",
+        "fastapi",
+        "docker"
+      ],
+      "job_skills": [
+        "python",
+        "fastapi",
+        "docker"
+      ]
+    },
+    {
+      "id": "negation-unrelated",
+      "group": "negation",
+      "relevance": "unrelated",
+      "score": 0.0,
+      "resume_skills": [],
+      "job_skills": [
+        "python",
+        "fastapi",
+        "docker"
+      ]
+    }
+  ]
+}
